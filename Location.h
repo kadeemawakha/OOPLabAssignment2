@@ -8,15 +8,17 @@ private:
     double y;
 
 public:
-    // Constructors
+	// constructors to initialize the location
     Location();
     Location(double xCoord, double yCoord);
 
-    // Setters
+	// setters to set the x and y coordinates
+
     void setX(double xCoord);
     void setY(double yCoord);
 
-    // Getters
+	// getters to retrieve the x and y coordinates
+
     double getX() const;
     double getY() const;
 };

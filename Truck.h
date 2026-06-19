@@ -7,26 +7,32 @@
 class Truck
 {
 private:
+
     int truckID;
     Driver driver;
     Location location;
 
 public:
-    // Constructors
+
+	// constructors to initialize the truck
+
     Truck();
     Truck(int id, Driver d, Location l);
 
-    // Setters
+	// setters to set the truck ID, driver, and location
+
     void setTruckID(int id);
     void setDriver(Driver d);
     void setLocation(Location l);
 
-    // Getters
+	// getters to retrieve the truck ID, driver, and location
+
     int getTruckID() const;
     Driver getDriver() const;
     Location getLocation() const;
 
-    // Distance function
+	// distance function to calculate the distance from the truck's current location to another location
+
     double distanceFrom(Location otherLocation) const;
 };
 
