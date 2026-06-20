@@ -1,5 +1,6 @@
 #include "driver.h"
 
+
 // Default constructor
 // Initializes the driver with empty values
 Driver::Driver()
@@ -8,6 +9,7 @@ Driver::Driver()
     lastName = "";
     driverID = 0;
 }
+
 
 // Parameterized constructor
 // Initializes the driver with given values
